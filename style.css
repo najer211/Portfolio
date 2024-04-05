@@ -164,6 +164,18 @@ button:hover {
     display: inline-block;
 }
 
+.underline,
+.header_home,
+.header_social {
+    transition: transform 0.3s ease-in-out 0.1s;
+}
+
+.underline:hover,
+.header_home:hover,
+.header_social:hover {
+    transform: translateY(-5px);
+}
+
 @media (min-width: 40em) {
     .header {
         margin-top: 30px;
